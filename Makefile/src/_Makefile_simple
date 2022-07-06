@@ -1,0 +1,4 @@
+all:
+	gcc main.c json.c valgrind.c -o main -lsqlite3 -ljson-c
+clean:
+	rm -f *.o *.db main
